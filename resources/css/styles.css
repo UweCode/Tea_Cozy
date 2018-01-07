@@ -4,17 +4,13 @@ body {
   color: seashell;
   font-family: Helvetica, sans-serif;
   font-size: 27px;
-}
-
-h1 {
-  font-family: "Brush Script MT", cursive;
-	font-size: 50px;
-	font-weight: 400;
-  margin: 0;
+  opacity: 0.9;
 }
 
 h2 {
-
+  font-size: 40px;
+  margin: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -22,7 +18,8 @@ h3 {
 }
 
 h4 {
-
+  font-size: 20px;
+  margin: 10px;
 }
 
 h5 {
@@ -33,26 +30,38 @@ header {
   background-color: black;
   border-bottom: 1px solid seashell;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   height: 69px;
   margin: 0 auto;
+  padding: 0 10px;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 1;
 }
 
-header h1 {
+header div {
+  display: flex;
+  align-items: center;
   flex: 1;
+  top: 0;
+}
+
+header img {
+  height: 50px;
 }
 
 header nav {
-  diplay: inline-flex;
+  display: inline-flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 nav span a  {
   color: seashell;
+  font-size: 20px;
+  margin-right: 20px;
   text-decoration: underline;
 }
 
@@ -60,23 +69,31 @@ footer {
 
 }
 
-nav {
-
-}
-
 .content {
-  margin: 0 auto;
+  margin: 70px auto;
   width: 1200px;
 }
 
 .mission {
   background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 700px;
   width: 1200px;
 }
 
-.missionText {
+.mission div {
+  background-color: black;
+}
 
+.missionText {
+  text-align: center;
+  width: 100%;
+}
+
+.missionText h2 {
+  margin-bottom: 20px;
 }
 
 .featuredTea {
