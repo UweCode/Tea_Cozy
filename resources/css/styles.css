@@ -1,14 +1,16 @@
 body {
+  margin: 0;
+  background-color: black;
+  color: seashell;
   font-family: Helvetica, sans-serif;
   font-size: 27px;
-  color: seashell;
-  background-color: black;
 }
 
 h1 {
   font-family: "Brush Script MT", cursive;
 	font-size: 50px;
 	font-weight: 400;
+  margin: 0;
 }
 
 h2 {
@@ -28,7 +30,30 @@ h5 {
 }
 
 header {
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 69px;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
 
+header h1 {
+  flex: 1;
+}
+
+header nav {
+  diplay: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav span a  {
+  color: seashell;
+  text-decoration: underline;
 }
 
 footer {
@@ -36,5 +61,46 @@ footer {
 }
 
 nav {
+
+}
+
+.content {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.missionText {
+
+}
+
+.featuredTea {
+
+}
+
+.featuredItems {
+
+}
+
+.featuredItem {
+
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.location {
+
+}
+
+.contact {
 
 }
