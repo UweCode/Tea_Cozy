@@ -10,7 +10,6 @@ body {
 h2 {
   font-size: 40px;
   margin: 10px;
-  text-align: center;
 }
 
 h3 {
@@ -87,30 +86,46 @@ footer {
   background-color: black;
 }
 
-.missionText {
+.sectionText {
   text-align: center;
   width: 100%;
 }
 
-.missionText h2 {
+.sectionText h2 {
   margin-bottom: 20px;
 }
 
 .featuredTea {
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto 70px auto;
+  padding-top: 70px;
 }
 
 .featuredItems {
-
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .featuredItem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+}
 
+.featuredItem img {
+  height: 200px;
+  width: 300px;
 }
 
 .locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
+  padding-top: 70px;
   width: 1200px;
 }
 
