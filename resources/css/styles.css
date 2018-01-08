@@ -116,8 +116,16 @@ footer span {
 
 .featuredItems {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+#threeFeaturedItems {
+  width: 1000px;
+}
+
+#twoFeaturedItems {
+  width: 650px;
 }
 
 .featuredItem {
