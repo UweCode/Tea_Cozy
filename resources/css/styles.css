@@ -1,3 +1,6 @@
+
+/* Element Tag Styles */
+
 body {
   margin: 0;
   background-color: black;
@@ -78,10 +81,23 @@ footer span {
   font-weight: 600;
 }
 
+/* Content Styles */
+
 .content {
   margin: 70px auto 50px auto;
   width: 1200px;
 }
+
+.sectionText {
+  text-align: center;
+  width: 100%;
+}
+
+.sectionText h2 {
+  margin-bottom: 20px;
+}
+
+/* Mission Styles */
 
 .mission {
   background-image: url("../images/img-mission-background.jpg");
@@ -96,14 +112,7 @@ footer span {
   background-color: black;
 }
 
-.sectionText {
-  text-align: center;
-  width: 100%;
-}
-
-.sectionText h2 {
-  margin-bottom: 20px;
-}
+/* Featured Styles */
 
 .featuredTea {
   display: flex;
@@ -139,6 +148,8 @@ footer span {
   height: 200px;
   width: 300px;
 }
+
+/* Locations Styles */
 
 .locations {
   background-image: url("../images/img-locations-background.jpg");
@@ -185,6 +196,8 @@ footer span {
   width: 100%;
 }
 
+/* Contact Styles */
+
 .contact {
   display: flex;
   flex-flow: column wrap;
@@ -203,4 +216,8 @@ footer span {
   flex: 1;
   margin: 0;
   text-align: center;
+}
+
+h5 a {
+  color: white;
 }
